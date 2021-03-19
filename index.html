@@ -4,38 +4,91 @@
         <meta charset="UTF-8">
         <title>Natali Lima</title>
     </head>
+    <!--Defina fontes diferentes para o seu nome e para a descrição que você criou;
+    Defina uma cor base de background do seu Portfólio Web ;
+    Altere o estilo das tags que você usou para destacar 
+    algumas informações, como sua nacionalidade e a cidade/estado onde mora;
+    Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. 
+    Lembre-se de usar classes para cada um dos elementos;
+    -->
+    <style>
+        h1{
+            color:#293636;  
+            text-align: center;
+            font-family:fantasy;
+        }
+        body{
+            background-color: #C0E0DE;
+            color:#162521;
+        }
+        #description{
+            text-align: center;
+            line-height: 2em;
+        }
+
+        .mySkills{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+            color: #162521;
+            line-height: 1.5em;
+        }
+        .skills-two{
+            font-weight: 800;
+            font-size: 18px;
+        }
+        .skills-four{
+            font-size: 18px;
+            font-weight: 800;
+        }
+        #bio{
+            line-height: 1.5em;
+            text-align: center;
+            font-size: 16px;
+        }
+        a{
+            text-decoration: none;
+            color: #162521;
+            line-height: -20%;
+        }
+        .indice{
+            text-align: center;
+        }
+    </style>
     
     <body>
         
         <img id ="picture" src="euzinha.jpg" width="350px" alt="Foto de Natali Lima, sorrindo">
-        <h1 id="description">Natali Fernanda Pereira Lima</h1>
+        <h1>Natali Fernanda Pereira Lima</h1>
         
-        <p>Brasileira, natural de Cuiaba-MT, 20 anos de idade e amante da MPB...<br></br> 
-            <strong>Apaixonada por desenvolvimento web</strong>, e sobre como a tecnologia 
-            pode auxiliar positivamente na vida das pessoas
+        <p id="description"><i>Brasileira, natural de Cuiaba-MT, 20 anos de idade e amante da MPB...</i><br></br> 
+            <p id="bio"><strong>Apaixonada por desenvolvimento web</strong>, e sobre como a tecnologia 
+            pode auxiliar positivamente na vida das pessoas</p>
         </p>
         <br></br>
         
         <h3 id="skills">Habilidades</h3>
-        <p >
-            <li>Aplicar treinamento de pessoal em informática</li>
-            <li><strong>Suporte técnico a computadores</strong> </li>
-            <li>Manutenção de computadores</li>
-            <li><strong>Trabalhar com aplicativos de controle de informação</strong></li>
+        <p>
+            <li class="skills-one mySkills">Aplicar treinamento de pessoal em informática</li>
+            <li class="skills-two mySkills"><strong>Suporte técnico a computadores</strong> </li>
+            <li class="skills-tree mySkills">Manutenção de computadores</li>
+            <li class="skills-four mySkills"><strong>Trabalhar com aplicativos de controle de informação</strong></li>
             <br></br>
         </p>
         
         
-        
+        <div class="social-midia">
         <h4 id="socialMidia">Redes sociais</h4>
         <a href="https://github.com/heyynat" target="_blank"><strong>GitHub</strong></a><br></br>
         <a href="https://instagram.com/_heyynat" target="_blank"><strong>Instagram</strong></a>
-        
+        </div>
+
+        <div class="indice">
         <h1>Indice</h1>
         <a href="#picture">Foto de perfil</a> <br></br>
         <a href="#description">Bio</a> <br></br>
         <a href="#skills">Habilidades</a> <br></br>
         <a href="#socialMidia">Redes Sociais</a> <br></br>
+        </div>
     </body>
 
 
