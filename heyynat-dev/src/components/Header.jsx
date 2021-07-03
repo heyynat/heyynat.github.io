@@ -5,11 +5,9 @@ class Header extends Component {
   render() {
     return (
       <nav role="navigation" aria-label="main navigation">
-        <div>
-          <Link to="/" >Home</Link>
-          <Link to="/about" >About</Link>
-          <Link to="/myprojects" >Projects</Link>
-        </div>
+          <Link to="/" className="link-start link-item">Home</Link>
+          <Link to="/about" className="link-item">About</Link>
+          <Link to="/myprojects" className="link-item">Projects</Link>
       </nav>
     )
   }
