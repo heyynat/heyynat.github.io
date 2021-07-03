@@ -9,14 +9,19 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <header>
           <Header />
-        </header>
         <Switch>
           <Route exact path="/"><Profile /></Route>
           <Route path="/myprojects"><MyProjects /></Route>
           <Route path="*"><NotFound /></Route>
         </Switch>
+        <footer class="footer">
+          <div class="content has-text-centered">
+            <p>
+              Constantemente aprimorado por <a href="https://github.com/heyynat"> <strong>Natali Lima</strong></a>.
+            </p>
+          </div>
+        </footer>
       </BrowserRouter>
     );
   }

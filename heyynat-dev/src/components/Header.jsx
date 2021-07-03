@@ -4,18 +4,12 @@ import {Link }from 'react-router-dom';
 class Header extends Component {
   render() {
     return (
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/myprojects">Projects</Link>
-          </li>
-        </ul>
+      <nav role="navigation" aria-label="main navigation">
+        <div>
+          <Link to="/" >Home</Link>
+          <Link to="/about" >About</Link>
+          <Link to="/myprojects" >Projects</Link>
+        </div>
       </nav>
     )
   }
