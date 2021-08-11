@@ -1,8 +1,22 @@
 {
-  "main.css": "static/css/main.a954daba.css",
-  "main.css.map": "static/css/main.a954daba.css.map",
-  "main.js": "static/js/main.f724903a.js",
-  "main.js.map": "static/js/main.f724903a.js.map",
-  "static/js/0.acd1ede5.chunk.js": "static/js/0.acd1ede5.chunk.js",
-  "static/js/0.acd1ede5.chunk.js.map": "static/js/0.acd1ede5.chunk.js.map"
+  "files": {
+    "main.css": "/heyynat-portifolio/static/css/main.ad785ca2.chunk.css",
+    "main.js": "/heyynat-portifolio/static/js/main.13a2e29b.chunk.js",
+    "main.js.map": "/heyynat-portifolio/static/js/main.13a2e29b.chunk.js.map",
+    "runtime-main.js": "/heyynat-portifolio/static/js/runtime-main.f7e7f13c.js",
+    "runtime-main.js.map": "/heyynat-portifolio/static/js/runtime-main.f7e7f13c.js.map",
+    "static/js/2.aff31a78.chunk.js": "/heyynat-portifolio/static/js/2.aff31a78.chunk.js",
+    "static/js/2.aff31a78.chunk.js.map": "/heyynat-portifolio/static/js/2.aff31a78.chunk.js.map",
+    "static/js/3.ef201149.chunk.js": "/heyynat-portifolio/static/js/3.ef201149.chunk.js",
+    "static/js/3.ef201149.chunk.js.map": "/heyynat-portifolio/static/js/3.ef201149.chunk.js.map",
+    "index.html": "/heyynat-portifolio/index.html",
+    "static/css/main.ad785ca2.chunk.css.map": "/heyynat-portifolio/static/css/main.ad785ca2.chunk.css.map",
+    "static/js/2.aff31a78.chunk.js.LICENSE.txt": "/heyynat-portifolio/static/js/2.aff31a78.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7e7f13c.js",
+    "static/js/2.aff31a78.chunk.js",
+    "static/css/main.ad785ca2.chunk.css",
+    "static/js/main.13a2e29b.chunk.js"
+  ]
 }
