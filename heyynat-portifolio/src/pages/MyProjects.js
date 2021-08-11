@@ -6,13 +6,13 @@ const MyProjects = () => {
   return (
     <Container>
       <Carousel>
-        {projects.map(({title, storyline, url}, index) => 
+        {projects.map(({title, storyline, url, image}, index) => 
             <Carousel.Item interval={1000}>
               <Nav.Item>
-                <Nav.Link target="_blank" href=''>
+                <Nav.Link target="_blank" href={url}>
                   <img
                     className="d-block w-100"
-                    src={url}
+                    src={image}
                     alt="First slide"
                     width="500px"
                     height="500px"
