@@ -7,13 +7,13 @@ import Header from './components/Header';
 
 const App = () => {
     return (
-      <>
+      <main>
         <Header />
         <Profile />
         <About />
         <MyProjects />
         <Footer />
-      </>
+      </main>
     );
 }
 
