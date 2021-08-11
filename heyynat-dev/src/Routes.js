@@ -7,10 +7,10 @@ import { Route, Switch } from "react-router-dom";
 const Routes = () => {
     return (
     <Switch>
-        <Route exact path="/"><Profile /></Route>
-        <Route path="/myprojects"><MyProjects /></Route>
-        <Route path="/about"><About /></Route>
-        <Route path="*"><NotFound /></Route>
+        <Route exact path="/" component={Profile} />
+        <Route path="/myprojects" component={MyProjects} />
+        <Route path="/about" component={About} />
+        <Route path="*" component={NotFound} />
     </Switch>
     )
 }

@@ -46,9 +46,8 @@ export const hardSkills = [
 export const projects = [
   {
     id: 1,
-    title: 'Project Movie Card Library CRUD',
-    storyline: "um CRUD de cartões de filmes em React.",
-    period: 1000,
+    title: 'Project Trybe Wallet',
+    storyline: "Uma carteira de despesas digital, com Redux",
     url: "https://images.unsplash.com/photo-1581905764498-f1b60bae941a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
 
   },
@@ -56,14 +55,12 @@ export const projects = [
       id: 2,
       title: 'Project Shopping Cart',
       storyline: "carrinho de compras totalmente dinâmico!",
-      period: 500,
       url: "https://images.unsplash.com/photo-1557821552-17105176677c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80"
   },
   {
     id: 3,
-    title: 'Project Pixels Art',
-    storyline: "uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.",
-    period: 500,
+    title: 'Project Trivia',
+    storyline: "Um Game de perguntas e respostas",
     url: "https://images.unsplash.com/photo-1602532262454-d18bf4c4e0af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80"
   },
 ];
