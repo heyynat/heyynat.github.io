@@ -6,8 +6,9 @@ import { Link } from 'react-router-dom';
 const Profile = () => {
     return (
       <Container className="container-fluid text-center">
-        <br /><br /><br />
+          <br /><br /><br />
         <h1 className='display-2'>Natali  <mark style={{backgroundColor: "#ccff33"}}>Lima</mark></h1>
+          <br /><br /><br />
         <Typist className="lead typist" cursor={{ show: false }}>
             {" "}
             <p>Apaixonada por tecnologia</p>
@@ -24,7 +25,11 @@ const Profile = () => {
             </Nav.Item>
           </Nav>
         </Typist>
+          <br /><br /><br />
         <Link class="btn btn-outline-dark btn-lg" to="/about">Sobre mim</Link>
+          <br /><br /><br />
+          <br /><br /><br />
+          <br /><br /><br />
       </Container>
     )
 }

@@ -16,6 +16,8 @@ const About = () => {
                     Trabalho e acredito em ações que possam gerar um impacto e simplificar a vida das pessoas.
                 </p>
             </div>
+          <br /><br /><br />
+
             <Nav className="justify-content-center"
                 activeKey="/home"
                 onSelect={(selectedKey) => setSkill(selectedKey)}

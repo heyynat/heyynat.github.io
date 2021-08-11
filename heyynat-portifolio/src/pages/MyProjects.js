@@ -13,7 +13,7 @@ const MyProjects = () => {
                   <img
                     className="d-block w-100"
                     src={image}
-                    alt="First slide"
+                    alt={title}
                     width="500px"
                     height="500px"
                   />
