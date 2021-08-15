@@ -1,19 +1,15 @@
 import React from 'react';
-import MyProjects from './pages/MyProjects';
-import About from './pages/About';
-import Profile from './components/Profile';
+import Routes from './Routes';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
 const App = () => {
   return (
-    <>
+    <main style={{backgroundColor: "rgb(39, 37, 37)"}}>
       <Header />
-      <Profile />
-      <About />
-      <MyProjects />
+      <Routes />
       <Footer />
-      </>
+    </main>
     );
 }
 

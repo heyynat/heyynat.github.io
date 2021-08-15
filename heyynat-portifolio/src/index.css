@@ -6,6 +6,10 @@ html, body, h2 {
   padding: 0;
 }
 
+#main {
+  height: 100vh;
+}
+
 nav {
   display: flex;
   justify-content: space-around;

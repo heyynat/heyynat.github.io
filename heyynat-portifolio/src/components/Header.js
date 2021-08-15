@@ -13,16 +13,11 @@ const Header = () => {
           >
             <Nav>
               <Nav.Link href="#about">Sobre</Nav.Link>
+              <Nav.Link href="#projects">Projetos</Nav.Link>
               <NavDropdown title="Contato" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="https://github.com/heyynat">GitHub</NavDropdown.Item>
                 <NavDropdown.Item href="https://www.linkedin.com/in/heyynat/">LinkedIn</NavDropdown.Item>
                 <NavDropdown.Item href="mailto:natalifplima@gmail.com">Email</NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="Projects" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="https://heyynat.github.io/trybewallet">TrybeWallet</NavDropdown.Item>
-                <NavDropdown.Item href="https://heyynat.github.io/trivia">Trivia</NavDropdown.Item>
-                <NavDropdown.Item href="https://heyynat.github.io/app-recipes">App Recipes</NavDropdown.Item>
-              {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
               </NavDropdown>
             </Nav>
           </Navbar>

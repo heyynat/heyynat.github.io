@@ -2,12 +2,14 @@ import React from 'react';
 import { Carousel, Container, Nav } from 'react-bootstrap';
 import { projects } from  '../services/config'
 
-const MyProjects = () => {
+const Projects = () => {
   return (
-    <Container>
+    <Container className="container-fluid text-center justify-content-center align-items-center">
+      <br /><br />
+      <h1 className='display-6'><mark className='text-white' style={{backgroundColor: "#42113C"}}>Projetos</mark></h1>
       <Carousel>
         {projects.map(({title, storyline, url, image}, index) => 
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={1000} key={title}>
               <Nav.Item>
                 <Nav.Link target="_blank" href={url}>
                   <img
@@ -30,4 +32,4 @@ const MyProjects = () => {
   );
 }
   
-export default MyProjects;
+export default Projects;

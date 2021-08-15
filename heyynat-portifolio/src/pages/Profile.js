@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 const Profile = () => {
     return (
-      <Container className="container-fluid text-center">
+      <Container className="text-center">
           <br /><br /><br />
-        <h1 className='display-2'>Natali  <mark style={{backgroundColor: "#ccff33"}}>Lima</mark></h1>
+        <h1 className='display-2 text-white'>Natali  <mark style={{backgroundColor: "#ccff33"}}>Lima</mark></h1>
           <br /><br /><br />
-        <Typist className="lead typist" cursor={{ show: false }}>
+        <Typist className="lead typist text-white" cursor={{ show: false }}>
             {" "}
             <p>Apaixonada por tecnologia</p>
           <Nav className="justify-content-center">
@@ -27,9 +27,7 @@ const Profile = () => {
         </Typist>
           <br /><br /><br />
         <Link class="btn btn-outline-dark btn-lg" to="/about">Sobre mim</Link>
-          <br /><br /><br />
-          <br /><br /><br />
-          <br /><br /><br />
+
       </Container>
     )
 }
