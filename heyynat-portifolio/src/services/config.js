@@ -11,24 +11,44 @@ export const softSkills = [
 
   {
     skill: 'Colaboração',
-    progress: 70
+    progress: 90
   },
   
   {
-    skill: 'Inteligência Emocional',
-    progress: 70
+    skill: 'Inteligência emocional',
+    progress: 80
+  },
+  {
+    skill: 'Trabalho em equipe',
+    progress: 90
+  },
+  {
+    skill: 'Pensamento crítico',
+    progress: 60
   },
 ];
 
 export const hardSkills = [
   {
     skill: 'JavaScript',
-    progress: 70
+    progress: 80
   },
 
   {
-    skill: 'HTML 5',
+    skill: 'GitHub',
     progress: 70
+  },
+  {
+    skill: 'Metodologias ágeis',
+    progress: 70
+  },
+  {
+    skill: 'React',
+    progress: 80
+  },
+  {
+    skill: 'HTML 5',
+    progress: 90
   },
   
   {
@@ -36,24 +56,20 @@ export const hardSkills = [
     progress: 70
   },
 
-  {
-    skill: 'React',
-    progress: 70
-  },
 ];
 
 // MY PROJECT
 export const projects = [
   {
     id: 1,
-    title: 'Project Trybe Wallet',
+    title: 'TrybeWallet',
     storyline: "Uma carteira de despesas digital, com Redux",
     image: "https://images.unsplash.com/photo-1512358958014-b651a7ee1773?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
     url: "https://heyynat.github.io/trybewallet",
   },
   {
     id: 2,
-    title: 'Project Trivia',
+    title: 'Trivia',
     storyline: "Um Game de perguntas e respostas",
     image: "https://images.unsplash.com/photo-1468657988500-aca2be09f4c6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmxhY2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     url: "https://heyynat.github.io/trivia",

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer style={bgStyle} className="mt-auto py-4 text-center ">
       <Container>
-        <i className="fas fa-code" /> Feito por{" "}
+        Feito por{" "}
         <Nav.Link
           className="badge badge-dark"
           target="_blank"

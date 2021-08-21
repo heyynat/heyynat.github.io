@@ -8,7 +8,7 @@ const Projects = () => {
       <br /><br />
       <h1 className='display-6'><mark className='text-white' style={{backgroundColor: "#42113C"}}>Projetos</mark></h1>
       <Carousel>
-        {projects.map(({title, storyline, url, image}, index) => 
+        {projects.map(({title, storyline, url, image}, index) =>
             <Carousel.Item interval={1000} key={title}>
               <Nav.Item>
                 <Nav.Link target="_blank" href={url}>
