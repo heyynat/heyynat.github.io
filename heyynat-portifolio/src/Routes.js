@@ -4,13 +4,13 @@ import NotFound from "./pages/NotFound"
 import About from './pages/About';
 import { Route, Switch } from "react-router-dom";
 
-const Routes = () => {
+export const Routes = () => {
     return (
     <Switch>
         <Route exact path="/" component={Profile} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="*" component={NotFound} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="*" component={NotFound} />
     </Switch>
     )
 }

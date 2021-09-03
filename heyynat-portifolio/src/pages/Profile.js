@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const Profile = () => {
     return (
-      <Container className="my-5 text-center justify-content-center align-items-center">
-          <Typist cursor={{show: false}} className="text-white" show={false} > <h1 className='display-2 text-white my-2'>Natali <mark style={{backgroundColor: "#ccff33"}}>Lima</mark></h1></Typist>
+      <Container id="#profile" className="my-5 text-center justify-content-center align-items-center">
+          <h1 className='display-2 text-white my-2'>Natali <mark style={{backgroundColor: "#ccff33"}}>Lima</mark></h1>
           <br /><br /><br />
           <Typist cursor={{hideWhenDoneDelay: 1000}} className="lead typist text-white">
           <p>Apaixonada por tecnologia</p>

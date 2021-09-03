@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <Container className="container-fluid text-center justify-content-center align-items-center">
       <br /><br />
-      <h1 className='display-6'><mark className='text-white' style={{backgroundColor: "#42113C"}}>Projetos</mark></h1>
+      <h1 id="projects" className='display-6'><mark className='text-white' style={{backgroundColor: "#42113C"}}>Projetos</mark></h1>
       <Carousel>
         {projects.map(({title, storyline, url, image}, index) =>
             <Carousel.Item interval={1000} key={title}>

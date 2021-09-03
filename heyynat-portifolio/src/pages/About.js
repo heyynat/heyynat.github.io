@@ -7,7 +7,7 @@ const About = () => {
     const [ skill, setSkill ] = useState('soft')
 
     return (
-        <Container className="container-fluid text-center justify-content-center align-items-center">
+        <Container id="about" className="container-fluid text-center justify-content-center align-items-center">
                 <h1 className='display-6 my-5'><mark className='text-white' style={{backgroundColor: "#42113C"}}>Sobre</mark></h1>
                 <Image src="https://avatars.githubusercontent.com/u/54861311?v=4" width="150px" roundedCircle />
             <p className='text-white my-3'>

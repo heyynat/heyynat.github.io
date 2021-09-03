@@ -13,14 +13,18 @@ export const softSkills = [
     skill: 'Colaboração',
     progress: 90
   },
-  
+
   {
     skill: 'Inteligência emocional',
     progress: 80
   },
   {
-    skill: 'Trabalho em equipe',
-    progress: 90
+    skill: 'Adaptabilidade',
+    progress: 80
+  },
+  {
+    skill: 'Aprender a Aprender',
+    progress: 85
   },
   {
     skill: 'Pensamento crítico',
@@ -76,9 +80,9 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'App Recipes',
+    title: 'Recipes App',
     storyline: "App de receitas com Context Api!",
     image: "https://images.unsplash.com/photo-1598214886806-c87b84b7078b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=625&q=80",
-    url: "https://heyynat.github.io/app-recipes",
+    url: "https://heyynat.github.io/recipes-app",
   },
 ];
