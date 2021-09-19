@@ -1,16 +1,16 @@
-import Profile from "./components/Profile"
-import MyProjects from "./pages/MyProjects"
+import Profile from "./pages/Profile"
+import Projects from "./pages/Projects"
 import NotFound from "./pages/NotFound"
 import About from './pages/About';
 import { Route, Switch } from "react-router-dom";
 
-const Routes = () => {
+export const Routes = () => {
     return (
     <Switch>
         <Route exact path="/" component={Profile} />
-        <Route path="/myprojects" component={MyProjects} />
-        <Route path="/about" component={About} />
-        <Route path="*" component={NotFound} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="*" component={NotFound} />
     </Switch>
     )
 }

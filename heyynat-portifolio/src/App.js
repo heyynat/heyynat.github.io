@@ -1,20 +1,21 @@
 import React from 'react';
-import MyProjects from './pages/MyProjects';
-import About from './pages/About';
-import Profile from './components/Profile';
-import Footer from './components/Footer';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Profile from './pages/Profile';
 
 const App = () => {
-    return (
-      <main>
-        <Header />
-        <Profile />
-        <About />
-        <MyProjects />
-        <Footer />
-      </main>
-    );
+  const bgStyle = { backgroundColor: "rgb(39, 37, 37)"};
+  return (
+      <body style={bgStyle} data-spy="scroll" data-target=".navbar" data-offset="50">
+      <Header />
+      <Profile />
+      <About />
+      <Projects />
+      <Footer />
+    </body>
+  );
 }
 
 export default App;

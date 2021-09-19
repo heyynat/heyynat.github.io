@@ -5,9 +5,9 @@ const Footer = () => {
   const bgStyle = { backgroundColor: "#f5f5f5" };
 
   return (
-    <footer style={bgStyle} className="mt-auto py-5 text-center ">
+    <footer style={bgStyle} className="mt-auto py-4 text-center ">
       <Container>
-        <i className="fas fa-code" /> feito por{" "}
+        Feito por{" "}
         <Nav.Link
           className="badge badge-dark"
           target="_blank"
