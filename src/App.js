@@ -1,13 +1,23 @@
+import React from 'react';
 import Footer from './components/Footer';
-import Maintenance from './pages/maintenance';
+import Header from './components/Header';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Profile from './pages/Profile';
+import './App.css';
 
-function App() {
-  const bgStyle = { backgroundColor: "rgb(39, 37, 37)"};
+const App = () => {
+  const bgStyle = { backgroundColor: "#16262E"};
   return (
-    <body style={bgStyle} data-spy="scroll" data-target=".navbar" data-offset="50">
-      <Maintenance />
-      <Footer />
-    </body>
+    <main>
+      <section style={bgStyle} data-spy="scroll" data-target=".navbar" data-offset="50">
+        <Header />
+        <Profile />
+      </section>
+        <About />
+        <Projects />
+        <Footer />
+    </main>
   );
 }
 
