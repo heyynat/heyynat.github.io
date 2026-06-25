@@ -1,38 +1,42 @@
-import { Container, Image, Nav } from 'react-bootstrap';
-import { useState } from 'react';
-import HardSkills from '../components/HardSkills';
-import SoftSkills from '../components/SoftSkills';
-import { profileImage, resumeAbout } from '../services/config';
+import { Container } from 'react-bootstrap';
+import {
+  mainStack,
+  resumeAbout,
+  specialties,
+} from '../services/config';
 
 function About() {
-  const [skill, setSkill] = useState('soft');
-
   return (
-    <Container
-      id="about"
-      className="container-fluid text-center justify-content-center align-items-center"
-    >
-      <h1 className="display-6 my-5">
-        <mark className="text-white" style={{ backgroundColor: '#42113C' }}>
-          Sobre
-        </mark>
-      </h1>
-      <Image src={profileImage} width="150" roundedCircle alt="Natali Lima" />
-      <p className="text-white my-3">{resumeAbout}</p>
-      <Nav
-        className="justify-content-center my-2"
-        activeKey={skill}
-        onSelect={(selectedKey) => setSkill(selectedKey)}
-      >
-        <Nav.Item>
-          <Nav.Link eventKey="hard">Hard Skills</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="soft">Soft Skills</Nav.Link>
-        </Nav.Item>
-      </Nav>
-      {skill === 'soft' ? <SoftSkills /> : <HardSkills />}
-    </Container>
+    <section id="about" className="section-block section-block--alt">
+      <Container>
+        <h2 className="section-title">Sobre</h2>
+        {resumeAbout.map((paragraph, index) => (
+          <p key={index} className="about-text">
+            {paragraph}
+          </p>
+        ))}
+
+        <div className="about-subsection">
+          <h2 className="section-title">Principais especialidades</h2>
+          <ul className="specialties-list">
+            {specialties.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="about-subsection">
+          <h2 className="section-title">Stack principal</h2>
+          <div className="skill-tags">
+            {mainStack.map((skill) => (
+              <span key={skill} className="skill-tag">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+      </Container>
+    </section>
   );
 }
 

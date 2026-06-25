@@ -1,26 +1,19 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 import About from './pages/About';
+import Education from './pages/Education';
+import Experience from './pages/Experience';
 import Profile from './pages/Profile';
-import Projects from './pages/Projects';
 import './App.css';
 
 function App() {
-  const bgStyle = { backgroundColor: '#16262E' };
-
   return (
     <div className="app">
-      <section
-        style={bgStyle}
-        data-spy="scroll"
-        data-target=".navbar"
-        data-offset="50"
-      >
-        <Header />
-        <Profile />
-      </section>
+      <Header />
+      <Profile />
       <About />
-      <Projects />
+      <Experience />
+      <Education />
       <Footer />
     </div>
   );
