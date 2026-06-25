@@ -4,21 +4,34 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#16262E" />
+    <meta name="theme-color" content="#0d1117" />
+    <script>
+      (function () {
+        if (localStorage.getItem('heyynat-theme') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', '#f6f7f9');
+        }
+      })();
+    </script>
     <meta
       name="description"
-      content="Portfólio de Natali Lima — Desenvolvedora Web Full Stack"
+      content="Natali Lima — Desenvolvedora Backend Pleno. Ruby on Rails, NestJS, APIs REST e integrações financeiras em Fintech."
     />
-    <meta property="og:title" content="Natali Lima | Desenvolvedora Web" />
+    <meta property="og:title" content="Natali Lima | Desenvolvedora Backend" />
     <meta
       property="og:description"
-      content="Portfólio de Natali Lima — Desenvolvedora Web Full Stack"
+      content="Natali Lima — Desenvolvedora Backend Pleno. Ruby on Rails, NestJS, APIs REST e integrações financeiras em Fintech."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://heyynat.github.io" />
+    <meta
+      property="og:image"
+      content="https://heyynat.github.io/images/profile-hero.jpg"
+    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Natali Lima | Desenvolvedora Web</title>
+    <title>Natali Lima | Desenvolvedora Backend</title>
   </head>
   <body>
     <noscript>Você precisa habilitar JavaScript para executar este app.</noscript>

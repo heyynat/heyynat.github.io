@@ -1,6 +1,6 @@
 {
-  "short_name": "Heyynat",
-  "name": "Natali Lima — Portfólio",
+  "short_name": "Natali Lima",
+  "name": "Natali Lima — Desenvolvedora Backend",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#16262E",
-  "background_color": "#16262E"
+  "theme_color": "#0d1117",
+  "background_color": "#0d1117"
 }
