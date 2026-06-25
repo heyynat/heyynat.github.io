@@ -18,9 +18,7 @@ npm run build
 npm run deploy
 ```
 
-O deploy publica o conteúdo de `build/` na branch `gh-pages` via [gh-pages](https://www.npmjs.com/package/gh-pages).
-
-Também há workflow de CI em `.github/workflows/deploy.yml` para deploy automático ao fazer push na `main`.
+O deploy publica o conteúdo de `build/` na branch `gh-pages` via [gh-pages](https://www.npmjs.com/package/gh-pages). O GitHub Pages do repositório deve usar a branch `gh-pages` como fonte.
 
 ## Stack
 
