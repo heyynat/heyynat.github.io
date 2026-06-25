@@ -1,0 +1,33 @@
+.main-profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  color: white;
+}
+
+.section-profile-right img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.section-profile-left {
+  text-align: center;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.profile-links a {
+  font-size: 2rem;
+}
+
+.profile-links a:hover {
+  text-decoration: none;
+  opacity: 0.85;
+}
